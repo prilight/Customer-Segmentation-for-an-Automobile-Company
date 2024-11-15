@@ -35,3 +35,6 @@ Customer Segmentatiom for an Automobile Company Dataset: The primary dataset use
 - XGBoostClassifier:
   - Validation Accuracy: 51.3%
   - Lower Overall performance compared to RandomForest and GradientBoosting.
+    
+### Final Recommendation
+Based on the analysis and model evaluations, I recommend using the Tuned RandomForestClassifier to predict the customer segments (A, B, C, D) for the 2627 new potential customers in the new markets. This model has demonstrated the best overall performance in terms of accuracy (53.22%) and balanced precision-recall across all customer segments.
